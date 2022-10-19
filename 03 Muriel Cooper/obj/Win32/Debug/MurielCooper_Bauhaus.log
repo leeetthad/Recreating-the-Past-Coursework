@@ -1,0 +1,19 @@
+﻿  ofApp.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+C:\Users\Thaddeus\Documents\openframeworks\apps\myApps\MurielCooper_Bauhaus\src\ofApp.cpp(43,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Thaddeus\Documents\openframeworks\apps\myApps\MurielCooper_Bauhaus\src\ofApp.cpp(49,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Thaddeus\Documents\openframeworks\apps\myApps\MurielCooper_Bauhaus\src\ofApp.cpp(55,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Thaddeus\Documents\openframeworks\apps\myApps\MurielCooper_Bauhaus\src\ofApp.cpp(74,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Thaddeus\Documents\openframeworks\apps\myApps\MurielCooper_Bauhaus\src\ofApp.cpp(80,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Thaddeus\Documents\openframeworks\apps\myApps\MurielCooper_Bauhaus\src\ofApp.cpp(86,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Thaddeus\Documents\openframeworks\apps\myApps\MurielCooper_Bauhaus\src\ofApp.cpp(39,3): warning C4996: 'ofRotate': Use ofRotateDeg or ofRotateRad
+C:\Users\Thaddeus\Documents\openframeworks\apps\myApps\MurielCooper_Bauhaus\src\ofApp.cpp(69,3): warning C4996: 'ofRotate': Use ofRotateDeg or ofRotateRad
+     Creating library bin\MurielCooper_Bauhaus_debug.lib and object bin\MurielCooper_Bauhaus_debug.exp
+  MurielCooper_Bauhaus.vcxproj -> C:\Users\Thaddeus\Documents\openframeworks\apps\myApps\MurielCooper_Bauhaus\bin\MurielCooper_Bauhaus_debug.exe
+  
+  	                   2	C:\Users\Thaddeus\Documents\openframeworks\libs\fmod\lib\vs\Win32\
+  	  *EXTRA File 		 6018560	C:\Users\Thaddeus\Documents\openframeworks\apps\myApps\MurielCooper_Bauhaus\bin\FreeImage.dll
+  
+  	                   1	C:\Users\Thaddeus\Documents\openframeworks\libs\FreeImage\lib\vs\Win32\
+  	  *EXTRA File 		 1544704	C:\Users\Thaddeus\Documents\openframeworks\apps\myApps\MurielCooper_Bauhaus\bin\fmod.dll
+  	  *EXTRA File 		 1733120	C:\Users\Thaddeus\Documents\openframeworks\apps\myApps\MurielCooper_Bauhaus\bin\fmodL.dll

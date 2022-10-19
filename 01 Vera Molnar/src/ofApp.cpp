@@ -1,7 +1,9 @@
 #include "ofApp.h"
 
 //--------------------------------------------------------------
-void ofApp::setup(){
+void ofApp::setup() {
+
+	ofSetFrameRate(144);
 
 	ofBackground(0, 0, 0);
 
@@ -9,45 +11,16 @@ void ofApp::setup(){
 		randomSixteen.push_back(i);
 	}
 
-}
-
-//--------------------------------------------------------------
-void ofApp::update(){
-	
-}
-
-//--------------------------------------------------------------
-void ofApp::draw(){
-
-	ofHideCursor();
-	line.draw();
-}
-
-//--------------------------------------------------------------
-void ofApp::keyPressed(int key){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::keyReleased(int key){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::mouseMoved(int x, int y ){
-
-	line.clear();
-
 	for (int a = 0; a < s; a++) {
 
 		if (a % 2 == 0) {
 
 			for (int b = (s * a); b < (s * a) + s; b++) {
 
-				ofSeedRandom(mouseX);
+				ofSeedRandom(mouseX + ofRandom(0,128));
 				ofRandomize(randomSixteen);
 
-				int yOffset = m + (a * (4*m));
+				int yOffset = m + (a * (4 * m));
 				int xOffset = m + ((b % s) * (4 * m));
 
 				for (int i = 0; i < 4; i++) {
@@ -68,11 +41,11 @@ void ofApp::mouseMoved(int x, int y ){
 
 			for (int b = (s * a); b < (s * a) + s; b++) {
 
-				ofSeedRandom(mouseX);
+				ofSeedRandom(mouseX + ofRandom(0, 128) + 2);
 				ofRandomize(randomSixteen);
 
 				int yOffset = m + (a * (4 * m));
-				int xOffset = (((4*(s-1))+1)*m) - ((b % s) * (4 * m));
+				int xOffset = (((4 * (s - 1)) + 1) * m) - ((b % s) * (4 * m));
 
 				for (int i = 0; i < 4; i++) {
 					for (int j = 0; j < 4; j++) {
@@ -86,49 +59,87 @@ void ofApp::mouseMoved(int x, int y ){
 				}
 
 			}
-			
+
 		}
 	}
+}
 
+//--------------------------------------------------------------
+void ofApp::update() {
+	
+	if (ptpct < 1000) {
+		ptpct += 0.02;
+	}
+	else {
+		line2.clear();
+		ptpct = 0;
+	}
+}
+
+//--------------------------------------------------------------
+void ofApp::draw() {
+
+	ofHideCursor();
+	ofSetColor(0 ,0,0);
+	line.draw();
+
+	ofSetColor(255, 255, 255);
+	line2.addVertex(line.getPointAtPercent(ptpct / 1000));
+	line2.draw();
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mouseDragged(int x, int y, int button){
+void ofApp::keyPressed(int key) {
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mousePressed(int x, int y, int button){
+void ofApp::keyReleased(int key) {
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mouseReleased(int x, int y, int button){
+void ofApp::mouseMoved(int x, int y) {
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mouseEntered(int x, int y){
+void ofApp::mouseDragged(int x, int y, int button) {
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mouseExited(int x, int y){
+void ofApp::mousePressed(int x, int y, int button) {
 
 }
 
 //--------------------------------------------------------------
-void ofApp::windowResized(int w, int h){
+void ofApp::mouseReleased(int x, int y, int button) {
 
 }
 
 //--------------------------------------------------------------
-void ofApp::gotMessage(ofMessage msg){
+void ofApp::mouseEntered(int x, int y) {
 
 }
 
 //--------------------------------------------------------------
-void ofApp::dragEvent(ofDragInfo dragInfo){ 
+void ofApp::mouseExited(int x, int y) {
+
+}
+
+//--------------------------------------------------------------
+void ofApp::windowResized(int w, int h) {
+
+}
+
+//--------------------------------------------------------------
+void ofApp::gotMessage(ofMessage msg) {
+
+}
+
+//--------------------------------------------------------------
+void ofApp::dragEvent(ofDragInfo dragInfo) {
 
 }
