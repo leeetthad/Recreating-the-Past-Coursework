@@ -1,3 +1,0 @@
-Assignment for MAS.S66 Recreating the Past (https://rtp.media.mit.edu/)
-
-Recreation of Vera Molnar's "Homage to Dürer 400 Needles Crossed by a Thread" in openframeworks
