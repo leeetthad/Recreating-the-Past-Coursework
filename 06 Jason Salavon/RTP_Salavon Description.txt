@@ -1,0 +1,3 @@
+Assignment for MAS.S66 Recreating the Past (https://rtp.media.mit.edu/)
+
+Recreation of Jason Salavon's 100 series in openframeworks, with frames from Cyberpunk 2077 gameplay, Bladerunner and Bladerunner 2047

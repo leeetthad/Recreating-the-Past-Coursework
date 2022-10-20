@@ -1,0 +1,7 @@
+Assignment for MAS.S66 Recreating the Past (https://rtp.media.mit.edu/)
+
+Original
+Hans M. Wingler, Bauhaus: Weimar, Dessau, Berlin, Chicago; paperback cover image.
+© 1969 Massachusetts Institute of Technology, by permission of The MIT Press.
+
+Recreation of Muriel Cooper's cover image for above work in openframeworks

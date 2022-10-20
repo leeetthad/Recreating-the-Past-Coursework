@@ -1,0 +1,3 @@
+Assignment for MAS.S66 Recreating the Past (https://rtp.media.mit.edu/)
+
+Recreation of Myron Kreuger's "Videoplace" in openframeworks, using the user's eye and winking actions for a drawing tool.

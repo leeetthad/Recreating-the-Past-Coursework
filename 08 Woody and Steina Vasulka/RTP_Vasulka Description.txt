@@ -1,0 +1,3 @@
+Assignment for MAS.S66 Recreating the Past (https://rtp.media.mit.edu/)
+
+Recreation of Woody and Steina Vasulka's "Didactic Video, Transformations" in openframeworks.

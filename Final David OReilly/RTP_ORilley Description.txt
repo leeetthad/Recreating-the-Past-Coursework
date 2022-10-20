@@ -1,0 +1,3 @@
+Assignment for MAS.S66 Recreating the Past (https://rtp.media.mit.edu/)
+
+Recreation of Daivd O'Reilly's installation "Eye of the Dream", with models from his opensource collection, Everything, in openframeworks.

@@ -1,0 +1,3 @@
+Assignment for MAS.S66 Recreating the Past (https://rtp.media.mit.edu/)
+
+Recreation of Ken Knowlton's "Barack Obama (from 2008 acceptance speech)" in openframeworks
